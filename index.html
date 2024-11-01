@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather - App</title>
+    <link rel="icon" href="images/cloudy-day.png" />
+    <link rel="stylesheet" href="Style/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="search">
+        <i class="bx bxs-map"></i>
+        <input type="text" placeholder="enter your location" />
+        <button class="bx bx-search"></button>
+      </div>
+
+      <div class="weather">
+        <div class="weather-info">
+          <img src="images/cloud.png" />
+          <p class="temperature">0<span>°C</span></p>
+          <p class="description">Cloud</p>
+        </div>
+      </div>
+
+      <div class="more-info">
+        <div class="box">
+          <div class="humidity">
+            <i class="bx bx-water"></i>
+            <div class="text">
+              <span>55%</span>
+              <p>Humidity</p>
+            </div>
+          </div>
+
+          <div class="wind">
+            <i class="bx bx-wind"></i>
+            <div class="text">
+              <span>0Km/h</span>
+              <p>Wind</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="error">
+        <img src="images/undraw_fixing_bugs_w7gi.svg" alt="" />
+        <p>Oops! Wrong City</p>
+      </div>
+    </div>
+    <script src="JS/script.js"></script>
+  </body>
+</html>
